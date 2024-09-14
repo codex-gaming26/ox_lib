@@ -12,7 +12,9 @@ const useStyles = createStyles((theme) => ({
   container: {
     width: 300,
     height: 'fit-content',
-    backgroundColor: theme.colors.dark[6],
+    background: 'radial-gradient(circle, rgba(38, 51, 94, 0.684) 0%, rgba(64, 85, 156, 0.691) 100%)',
+    // borderRadius:'3',
+    border: '0.21rem solid rgba(5, 5, 5, 0.925)',
     color: theme.colors.dark[0],
     padding: 12,
     borderRadius: theme.radius.sm,
